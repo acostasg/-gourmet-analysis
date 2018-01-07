@@ -1,6 +1,7 @@
 #Gourmet Analysis with R
 Analysis with R to sample dataset to Gourmet sample dataset
 
+````
 Gourmet Project
  ├── R  # anàlisis i models de la practica
  │   ├── analisis_data_o_hora_del_dia.R
@@ -31,6 +32,7 @@ Gourmet Project
  │ 
  ├── Index_documents_practica.txt   # index de la practica
  └── acostasg_MD_Practica.pdf       # pdf explicació practica i les respostes amb gràfics per al client.
+ ````
  
  
  # TO-DO
