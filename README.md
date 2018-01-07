@@ -35,6 +35,7 @@ Gourmet Project
  └── acostasg_MD_Practica.pdf       # pdf explicació practica i les respostes amb gràfics per al client.
  ````
  
+ ![Sample to view data](images/dia_de_la_semana_i_professio.png)
  
  # TO-DO
  * Upload to dataset and kernels to kaggle.com - Kaggle: Your Home for Data Science
