@@ -1,0 +1,29 @@
+version: '3'
+
+volumes:
+  PRAC_MINERIA_mysql_var_lib:
+    driver: local
+
+networks:
+  PRAC_MINERIA-network-dev:
+    driver: bridge
+
+services:
+  prac-mineria-mysql-dev:
+    image: mysql:5.7
+    container_name: prac-mineria-mysql-dev
+    hostname: prac-mineria-mysql-dev
+    ports:
+      - "3306:3306"
+    volumes:
+      - PRAC_MINERIA_mysql_var_lib:/var/lib/mysql
+      - ./gourmetdb:/docker-entrypoint-initdb.d
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=GOURMET
+      - MYSQL_USER=gourmetdb
+      - MYSQL_PASSWORD=gourmetdb
+    networks:
+      PRAC_MINERIA-network-dev:
+        aliases:
+          - prac-mineria-mysql-dev.sandbox
