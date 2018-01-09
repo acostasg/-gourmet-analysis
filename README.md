@@ -1,6 +1,6 @@
 # Gourmet Analysis with R
 
-Analysis with R to sample dataset to Gourmet sample dataset
+Analysis with R to sample dataset to Gourmet supermarkets
 
 ````
 Gourmet Project
