@@ -49,9 +49,6 @@ datos$CODVENTA <- factor(datos$CODVENTA)
 datos$DESCRIPCION <- factor(datos$DESCRIPCION)
 datos$DESCRIPCION <- as.factor(sapply(datos$DESCRIPCION, function (x) (chartr('áéíóúñäëïöüàèìòù','aeiounaeiouaeiou', x))))
 
-
-CODVENTA
-
 # write.csv(datos, file = "model_agregation_rules.csv")
 
 summary(datos)

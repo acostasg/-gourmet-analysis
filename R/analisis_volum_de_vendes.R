@@ -47,7 +47,7 @@ library(RMySQL)
 
 datos <- read.csv("/home/albert/Dropbox/uoc/UOC/MÀSTER - DATA SCIENCA/Mineria de dades/practica/Entrega/csv/analisis_volum_de_vendes.csv", header = TRUE, sep = ',')
 
-datos = datos[,2:9] # clear autoincremental column
+datos = datos[,2:8] # clear autoincremental column
 
 summary(datos)
 

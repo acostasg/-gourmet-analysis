@@ -37,5 +37,13 @@ Gourmet Project
  
  ![Sample to view data](images/dia_de_la_semana_i_professio.png)
  
- # TO-DO
- * Upload to dataset and kernels to kaggle.com - Kaggle: Your Home for Data Science
+### Kaggle: Your Home for Data Science
+ 
+ Dataset: https://www.kaggle.com/acostasg/gourmet-supermarkets
+ 
+##### Kernels:
+* https://www.kaggle.com/acostasg/analysis-by-day-and-time
+* https://www.kaggle.com/acostasg/analysis-by-purchasing-number
+* https://www.kaggle.com/acostasg/analysis-of-the-total-amount-of-purchases
+* https://www.kaggle.com/acostasg/model-decision-tree
+* https://www.kaggle.com/acostasg/model-agregation-rules
